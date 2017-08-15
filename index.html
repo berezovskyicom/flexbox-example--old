@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Books Online</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="menu">
+		<a href="#">Sign in</a>
+		<a href="#">My account</a>
+		<a href="#">Order Status</a>
+		<a href="#">Help</a>
+	</nav>
+
+	<header class="padding">
+		<div class="logo">Books Online</div>
+
+		<div class="search">
+		     <input type="search" name="search" id="searchInput">
+		     <a href="index.html">
+		     	<img src="img/searchIcon.png" alt="search">Search
+		     </a>
+		</div><!-- /search -->
+
+		<div class="cart">
+			<div class="header-cart">
+				<img src="img/cartIcon.png" alt="cart">
+				<p>Your Cart <small>(0 items)</small></p>
+			</div><!-- /header-cart -->
+
+			<div class="footer-cart">
+				<p id="cart-money">$0</p>
+				<a href="#" id="btn">Checkout</a>
+			</div><!-- /footer-cart -->
+		</div><!-- /cart -->
+
+		<div class="wishlist">
+			<img src="img/wishlistIcon.png" alt="wishlist">
+			<h4>Wish list</h4>
+		</div><!-- /wishlist -->
+	</header>
+
+	<nav class="category">
+		<a href="#">Computers</a>
+		<a href="#">Cooking</a>
+		<a href="#" id="active">Education</a>
+		<a href="#">Fiction</a>
+		<a href="#">Health</a>
+		<a href="#">Mathematics</a>
+		<a href="#">Medical</a>
+		<a href="#">Reference</a>
+		<a href="#">Science</a>
+	</nav>
+
+	<section class="deals">
+		<div class="carousel">
+			<!--<a href="#" id="button btnLeft">
+				<img src="img/btnLeft.png" alt="right">
+			</a>-->
+
+			<img src="img/bannerBook.png" alt="Lee Child 'A wanted Man'" id="banner">
+
+			<div class="aboutBook">
+				<h1>A Wanted man</h1>
+					<h2>(Jack Reacher #17)</h2>
+						<h3>By Lee Child</h3>
+			</div><!-- /aboutBook -->
+			<!--<a href="#" id="button btnRight">
+				<img src="img/btnRight.png" alt="right">
+			</a>-->
+		</div><!-- /carousel -->
+
+		<div class="monthDeal">
+			<h2>Deal of the month</h2>
+				<h5>The Human Face of Big Data</h5>
+					<img src="img/bookOfTheMonth.png" alt="The Human Face of Big Data">
+				<h4>Save 45% Today</h4>	
+				<h3>$27.50</h3>
+					<a href="#" id="buyNowBtn">Buy now</a>
+		</div><!-- /monthDeal -->
+	</section>
+
+	<section class="mainContent padding">
+		<ul class="categories">
+			<li class="maintitle">Categories</li>
+			<li class="sectionChoice">All</li>
+			<li class="title">Fiction &amp; literature</li>
+				<ul>
+					<li>Children</li>
+					<li>Science Fiction</li>
+					<li>Fantasy</li>
+					<li>Mystery</li>
+					<li>Romance</li>
+					<li>Horror</li>
+					<li>Poetry</li>
+					<li>Literature</li>
+					<li>Crime</li>
+				</ul>
+			<li class="title">Non-fiction</li>	
+				<ul>
+					<li>Comic</li>
+					<li>Cook</li>
+					<li>Psychology</li>
+					<li>Medical</li>
+					<li>Art</li>
+					<li>Photography</li>
+					<li>Law</li>
+					<li>History</li>
+					<li>Business</li>
+					<li>Computer</li>
+				</ul>
+			<li class="title">Other</li>
+				<ul>
+					<li>Baby</li>
+					<li>Sex</li>
+					<li>Travel</li>
+					<li>Science</li>
+					<li>Sports</li>
+				</ul>	
+		</ul>
+
+		<div class="grid">
+			<nav class="chooseOffers">
+				<a href="#" id="booksActive">Best Sellers</a>
+				<a href="#">New Arrivals</a>
+				<a href="#">Used Books</a>
+				<a href="#">Special offers</a>
+			</nav>
+			<div class="items">
+				<div class="item">
+					<a href="#">
+						<img src="img/books/1.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$50</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/2.jpg" alt="The Hare With Amber Eyes">
+						<p>The war of Art</p>
+						<div id="price">$60</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/1.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$25</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/4.jpg" alt="The Hare With Amber Eyes">
+						<p>The Immortals of Meluha</p>
+						<div id="price">$80</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/5.jpg" alt="The Hare With Amber Eyes">
+						<p>Life Is What You Make It</p>
+						<div id="price">$200</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/6.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$200</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/7.jpg" alt="The Hare With Amber Eyes">
+						<p>The war of Art</p>
+						<div id="price">$150</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/8.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$100</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/9.jpg" alt="The Hare With Amber Eyes">
+						<p>The Immortals of Meluha</p>
+						<div id="price">$152</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/10.jpg" alt="The Hare With Amber Eyes">
+						<p>Life Is What You Make It</p>
+						<div id="price">$200</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/11.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$220</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/12.jpg" alt="The Hare With Amber Eyes">
+						<p>The war of Art</p>
+						<div id="price">$10</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/13.jpg" alt="The Hare With Amber Eyes">
+						<p>The Hare With Amber Eyes</p>
+						<div id="price">$22</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/14.jpg" alt="The Hare With Amber Eyes">
+						<p>The Immortals of Meluha</p>
+						<div id="price">$300</div>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<img src="img/books/15.jpg" alt="The Hare With Amber Eyes">
+						<p>Life Is What You Make It</p>
+						<div id="price">$205</div>
+					</a>
+				</div>
+			</div>
+			<div class="pageCounter">
+				<nav>
+					<a href="#" id="pageActive">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+				</nav>
+			</div><!-- /pageCounter -->	
+		</div>
+	</section>
+
+	<section class="sectionCategories">
+		<div class="bio">
+		<h2>Biography &amp; True Stories</h2>
+			<nav>
+				<a href="#">General</a>
+				<a href="#">Diaries, Letters &amp; Journals</a>
+				<a href="#">Memoirs</a>
+				<a href="#">True Stories</a>
+				<a href="#">Generic Exams</a>
+				<a href="#">GK Titles</a>
+				<a href="#">Medical Entrance</a>
+				<a href="#">Other Entrance Exams</a>
+				<a href="#">PG Entrance Examinations</a>
+				<a href="#">Self-help Titles</a>
+				<a href="#">Sociology</a>
+			</nav>
+		</div><!-- /bio -->
+
+		<div class="pro">
+			<h2>Professional &amp; Reference</h2>
+			<nav>
+				<a href="#">Academic and Reference</a>
+				<a href="#">Business Trade</a>
+				<a href="#">Engineering and Computer Science</a>
+				<a href="#">Humanities, Social Sciences and Languages</a>
+				<a href="#">Introduction to Computers</a>
+				<a href="#">Science and Maths</a>
+				<a href="#">Trade Business</a>
+				<a href="#">English Language &amp; Literature</a>
+				<a href="#">English Language Teaching</a>
+				<a href="#">Envirenment Awareness</a>
+				<a href="#">Environment Protection</a>
+			</nav>
+		</div>
+
+		<div class="earthScience">
+			<h2>Earth Sciences</h2>
+			<nav>
+				<a href="#">Earth Sciences</a>
+				<a href="#">Geography</a>
+				<a href="#">The Environment</a>
+				<a href="#">Regional &amp; Area Planning</a>
+				<a href="#">Fantasy</a>
+				<a href="#">Gay</a>
+				<a href="#">Humorous</a>
+				<a href="#">Interactive</a>
+				<a href="#">Legal</a>
+				<a href="#">Lesbian</a>
+				<a href="#">Men'S Adventure</a>
+			</nav>
+		</div><!-- /earthScience -->
+
+		<div class="math">
+			<h2>Mathematics</h2>
+			<nav>
+				<a href="#">Algebra</a>
+				<a href="#">Differencial Equations</a>
+				<a href="#">Discrete Mathematics</a>
+				<a href="#">Fourier Analysis</a>
+				<a href="#">Numerical Analysis</a>
+				<a href="#">Probabilitys</a>
+				<a href="#">Statistical Methods/data Analysis</a>
+				<a href="#">Stochastic And Random Processes</a>
+				<a href="#">Topology</a>
+				<a href="#">Statistics</a>
+				<a href="#">Mathematics</a>
+			</nav>
+		</div><!-- /math -->
+	</section>
+
+	<div class="bankCards">
+		<h2>We accept all major Credit Card/Debit Card/Internet Banking</h2>
+			<img src="img/masterCard.png" alt="Master Card">
+			<img src="img/americanExpress.png" alt="American Express">
+			<img src="img/visa.png" alt="Visa">
+		<hr>
+			<p>Conditions of Use Privacy Notice © 2012-2017, Booksonline, Inc. or its affiliates</p>
+	</div><!-- /bankCards -->
+</body>
+</html>
